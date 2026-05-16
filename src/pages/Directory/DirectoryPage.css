@@ -1,0 +1,64 @@
+.directory {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+.directory h1 {
+  margin: 0 0 12px;
+  color: var(--text-h);
+}
+
+.directory-lead {
+  margin: 0 0 32px;
+  line-height: 1.5;
+}
+
+.directory-lead code {
+  font-size: 0.9em;
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.directory-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.directory-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.directory-card:hover {
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow);
+}
+
+.directory-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.directory-card-desc {
+  font-size: 0.95rem;
+}
+
+.directory-card-path {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+}
