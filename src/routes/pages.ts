@@ -20,4 +20,9 @@ export const pages: PageMeta[] = [
     title: 'Use State',
     description: 'Learn and practice React useState.',
   },
+  {
+    path: '/use-effect',
+    title: 'Use Effect',
+    description: 'Learn and practice React useEffect.',
+  },
 ]

@@ -4,6 +4,7 @@ import AboutPage from './pages/About'
 import DirectoryPage from './pages/Directory'
 import HomePage from './pages/Home'
 import UseStatePage from './pages/UseState/UseStatePage'
+import UseEffectPage from './pages/UseEffect/UseEffectPage'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="home" element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="use-state" element={<UseStatePage />} />
+          <Route path="use-effect" element={<UseEffectPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
