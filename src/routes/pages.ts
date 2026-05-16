@@ -15,4 +15,9 @@ export const pages: PageMeta[] = [
     title: 'About',
     description: 'Your first custom page — duplicate this folder to add more.',
   },
+  {
+    path: '/use-state',
+    title: 'Use State',
+    description: 'Learn and practice React useState.',
+  },
 ]
