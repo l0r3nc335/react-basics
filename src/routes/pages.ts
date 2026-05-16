@@ -25,4 +25,9 @@ export const pages: PageMeta[] = [
     title: 'Use Effect',
     description: 'Learn and practice React useEffect.',
   },
+  {
+    path: '/use-memo',
+    title: 'Use Memo',
+    description: 'Learn and practice React useMemo.',
+  },
 ]
