@@ -10,7 +10,7 @@ export default function UseMemoPage({}: DemoProps) {
   const [count, setCount] = useState(0);
   const [items] = useState(initialItems);
 
-  // expensive slow operation
+  // expensive slow operations
   const selectedItem = useMemo(
     () => items.find((item) => item.id === count),  // prev: item.isSelected
     [items, count]

@@ -18,16 +18,21 @@ export const pages: PageMeta[] = [
   {
     path: '/use-state',
     title: 'Use State',
-    description: 'Learn and practice React useState.',
+    description: 'Keep and remember a value even when the page updates.',
   },
   {
     path: '/use-effect',
     title: 'Use Effect',
-    description: 'Learn and practice React useEffect.',
+    description: 'Run a code in an arrow function when something changes or after rendering.',
   },
   {
     path: '/use-memo',
     title: 'Use Memo',
-    description: 'Learn and practice React useMemo.',
+    description: 'Remember a computed value so you dont recalculate it unnecessarily.',
+  },
+  {
+    path: '/use-callback',
+    title: 'Use Callback',
+    description: 'Keeps a fucntion and reuse it unless something important changes.',
   },
 ]

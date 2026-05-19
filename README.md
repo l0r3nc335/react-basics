@@ -71,3 +71,10 @@ export default defineConfig([
   },
 ])
 ```
+
+
+# REACT - javascript library
+
+# INSTALLATION
+  >>npm create vite@latest
+  >npm create vite@latest . -- --template react-ts
