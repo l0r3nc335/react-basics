@@ -1,10 +1,11 @@
-import type { User } from './UseContextpage';
+import { useUserContext } from "./context";
 
 interface SidebarProps {
-    user: User;
 }
 
-export function Sidebar({ user }: SidebarProps) {
+export function Sidebar({  }: SidebarProps) {
+    const user = useUserContext();
+
     return (
         <div>
             <div>{user.name}</div>
@@ -14,10 +15,10 @@ export function Sidebar({ user }: SidebarProps) {
 }
 
 interface ProfileProps {
-    user: User;
 }
 
-export function Profile({ user } : ProfileProps) {
+export function Profile({ } : ProfileProps) {
+    const user = useUserContext();
     return (
         <div>{user.name}</div>
     )

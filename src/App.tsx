@@ -7,8 +7,8 @@ import UseStatePage from './pages/UseState/UseStatePage'
 import UseEffectPage from './pages/UseEffect/UseEffectPage'
 import UseMemoPage from './pages/UseMemo/UseMemoPage'
 import UseCallbackPage from './pages/UseCallback/UseCallbackPage'
+import UseContextPage from './pages/UseContext/UseContextPage'
 import HRISRootLayout from './hris/layouts/HRISRootLayout'
-import UseContextPage from './pages/UseContext/UseContextpage'
 
 export default function App() {
   return (

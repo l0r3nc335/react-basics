@@ -1,16 +1,14 @@
-import type { User } from './UseContextpage';
 import { Profile, Sidebar } from './Components.tsx';
 
 interface DashboardProps {
-    user: User
 }
 
-export default function Dashboard({user} : DashboardProps){
+export default function Dashboard({} : DashboardProps){
 
     return (
         <div>
-            <Sidebar user={user}/>
-            <Profile user={user}/>
+            <Sidebar />
+            <Profile />
         </div>
     )
 

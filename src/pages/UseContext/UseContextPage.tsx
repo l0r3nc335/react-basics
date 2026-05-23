@@ -1,6 +1,9 @@
+
 import { useState } from 'react';
 
+import { DashboardContext } from './context';
 import Dashboard from './Dashboard';
+
 
 export interface User {
     isSubscribed: boolean;
@@ -9,15 +12,15 @@ export interface User {
 
 interface DemoProps {}
 
-export default function UseContext({} : DemoProps){
+export default function UseContextPage({} : DemoProps){
     const [user] = useState<User>({
         isSubscribed: true,
         name: 'Enzo'
     });
     
     return (
-        <div>
-            <Dashboard user={user} />
-        </div>
+        <DashboardContext.Provider value={user}>
+            <Dashboard />
+        </DashboardContext.Provider>
     )
 }
