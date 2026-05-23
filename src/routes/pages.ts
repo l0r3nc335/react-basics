@@ -35,4 +35,9 @@ export const pages: PageMeta[] = [
     title: 'Use Callback',
     description: 'Keeps a fucntion and reuse it unless something important changes.',
   },
+  {
+    path: '/use-context',
+    title: 'Use Context',
+    description: 'Access shared data from a parent component without props drilling.',
+  },
 ]

@@ -8,6 +8,7 @@ import UseEffectPage from './pages/UseEffect/UseEffectPage'
 import UseMemoPage from './pages/UseMemo/UseMemoPage'
 import UseCallbackPage from './pages/UseCallback/UseCallbackPage'
 import HRISRootLayout from './hris/layouts/HRISRootLayout'
+import UseContextPage from './pages/UseContext/UseContextpage'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="use-effect" element={<UseEffectPage />} />
           <Route path="use-memo" element={<UseMemoPage />} />
           <Route path="use-callback" element={<UseCallbackPage />} />
+          <Route path="use-context" element={<UseContextPage />} />
         </Route>
         <Route path="hris/*" element={<HRISRootLayout />} />
       </Routes>
